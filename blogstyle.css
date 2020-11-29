@@ -90,52 +90,45 @@ body
     font-size: 1rem;
 }
 
-.two
+.three 
 {
     padding-top: 1rem;
+    padding-left:1.5rem;
     background-color: #A7F3D0;
-    text-align: center;
-    padding-bottom: 1.5rem;
-    
-}
-.two h4
-{
-  color:#064E3B;
-  
-  padding:0 0.5rem;
-}
-.projects
-{
-    padding-top: 1rem;
-    text-align: center;
+    text-align: left;
     padding-bottom: 1.5rem;
 }
 
-
-.projects img
+.four
 {
     padding-top: 1rem;
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-.projects h2 
-{
-    font-size: 1.7rem;
+    padding-left:1.5rem;
+   background-color: #E5E7EB;
+    text-align: left;
+    padding-bottom: 1.5rem;
 }
 
-.projects h1
+.five
 {
     padding-top: 1rem;
-   
+    padding-left:1.5rem;
+    background-color: #A7F3D0;
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+.three h3, .four h3 ,.five h3
+{
+    font-weight: bold;
 }
 
-.projects p
+.three p , .four p , .five p
 {
     font-size: 1.1rem;
-    color: #BE185D;
+  
+    
 }
-.projects button , .blogs button
+
+.three button , .four button  , .five button
 {
     background:#059669;
     color:whitesmoke;
@@ -146,88 +139,31 @@ body
     padding-bottom: 1rem;
     font-weight: bold;
     border-radius: 10px;
-   
 }
 
-.blogs
+footer
 {
     padding-top: 1rem;
-    background-color: #A7F3D0;
+    background-color: #EEF2FF;
     text-align: center;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
 }
 
-    .blogs p
-    {
-
-        color:#064E3B;
-       
-        font-style: italic;
-        padding:2rem;
-
-    }
-
-    footer
-    {
-        padding-top: 1rem;
-        background-color: #EEF2FF;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    footer ul
-    {
-        list-style: none;
-        
-    }
-    footer ul li
-    {
-        display: inline;
-        
-        padding-right: 0.5rem;
-    }
-
-    footer ul li a 
-    {
-        text-decoration: none;
-        color:black;
-        font-weight:bold;
-    }
-
-
-
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #34D399;
+footer ul
+{
+    list-style: none;
     
-  }
-
-  li {
+}
+footer ul li
+{
+    display: inline;
     
-        float: right;
-        font-size: 15px;
-        padding: 0rem 0.5rem;
-        display: inline;
-      
-  }
+    padding-right: 0.5rem;
+}
 
-  .title
-  {
-      float:left;
-      font-size: 22px;
-  }
-
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 18px 20px;
+footer ul li a 
+{
     text-decoration: none;
-  }
-
-  li a:hover {
-    background-color:#ECFDF5;
-  } */
+    color:black;
+    font-weight:bold;
+}
