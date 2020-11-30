@@ -71,7 +71,7 @@ body
 
 .image-container .image 
 {
-    max-width: 400px;
+    max-width: 350px;
     display: block;
    margin: auto;
    border-radius:10px;
@@ -102,7 +102,7 @@ body
 
 .three img
 {
-    max-width: 400px;
+    max-width: 350px;
     display: block;
    margin: auto;
    border-radius:10px;
@@ -157,7 +157,7 @@ body
 
 .four img
 {
-    max-width: 400px;
+    max-width: 350px;
     display: block;
    margin: auto;
    border-radius:10%;
