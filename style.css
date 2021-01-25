@@ -191,6 +191,7 @@ body {
   padding-bottom: 1rem;
   font-weight: bold;
   border-radius: 10px;
+  outline: none;
 }
 footer {
   padding-top: 1rem;
